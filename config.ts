@@ -3,7 +3,7 @@ import { ConfigProps } from "./types/config";
 
 const config = {
 	// REQUIRED
-	appName: "Ignite Coaching",
+	appName: "Ignite Coaching - Bodybuilding & Lifestyle Coaching",
 	// REQUIRED: a short description of your app for SEO tags (can be overwritten)
 	appDescription:
 		"Team Ignite are both a coaching service and community with the mission of helping you to realise your true physical and mental potential. Our mission is to bring together as many like minded individuals as possible, with a shared passion for progression - in and outside of the gym.",
