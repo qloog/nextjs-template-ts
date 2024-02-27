@@ -91,15 +91,13 @@ const list: {
 		// videoSrc: "/jack.mp4"
 	},
 	{
-		username: "the_mcnaveen",
-		name: "Naveen",
-		text: "Setting up everything from the ground up is a really hard, and time consuming process. What you pay for will save your time for sure.",
+		name: "Graham",
+		text: "It's a 5 star service. They're extremely detail orientated. Very client focused. There's no ego. As stated previously I signed up initially for 12 weeks. Nearly a year later and I'm still with tehm. That in itself should tell its own story. I couldn't recommend Team Ignite highly enough its been one of the best decisions I've made",
 		type: refTypes.other
 	},
 	{
-		username: "wahab",
-		name: "Wahab Shaikh",
-		text: "Easily saves 15+ hrs for me setting up trivial stuff. Now, I can directly focus on shipping features rather than hours of setting up the same technologies from scratch. Feels like a super power! :D",
+		name: "Conor",
+		text: "Absolutely 10/10, really enjoy it. Whenever we are in contact always get a sense that they care about things on a personal level not just another number",
 		type: refTypes.other
 	},
 	{
@@ -148,9 +146,8 @@ const list: {
 	},
 	// The last testimonial is featured on big devices (span 2 columns + big font) 👇
 	{
-		username: "VicPivots",
-		name: "Victor Abeledo",
-		text: "Marc, I got your boilerplate and having the payments setup with Stripe + user auth is a blessing. This will save me like a week of work for each new side project I spin up. I appreciate that is well documented, as well. 100% worth it 🚀🚀🚀",
+		name: "Dáire",
+		text: "I had an extremely positive experience working with Team Ignite. I honestly don't think it could have gone better. Even smalls things they did which made the experience so good was basically being available 24/7. Any question no matter how small or big they are always willing to help and you possess a real positivity regarding the process which made me feel more comfortable and confident in what we were doing and trying to achieve.",
 		type: refTypes.other
 	}
 ];

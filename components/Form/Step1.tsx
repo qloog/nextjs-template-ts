@@ -47,7 +47,6 @@ export default function Step1({ register, errors }: any) {
 					required: true
 				})}
 				className="bg-white text-base-content/80 focus:ring-transparent focus:outline-none focus:border-[#fd5f1e] border-b-2 border-gray-100 text-lg py-2 transition-all ease-in-out duration-300 w-full mb-2 rounded-none">
-				<option value="0">-</option>
 				<option value="darragh">Darragh</option>
 				<option value="olan">Olan</option>
 			</select>

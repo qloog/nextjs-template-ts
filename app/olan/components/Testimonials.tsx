@@ -12,25 +12,20 @@ const list: {
 }[] = [
 	{
 		// Optional, use for social media like Twitter. Does not link anywhere but cool to display
-		username: "CamBro Conversations - Top 1% Podcast",
+
 		// REQUIRED
-		name: "Colin Campbell",
+		name: "Graham",
 		// REQUIRED
-		text: "I have made significant improvements to the aesthetics of the promotional material for my podcast. A good episode only becomes great with supporting thumbnails, artwork, and clips. The work Darren and the team do in this space has helped me level up and continue growing my podcast into the top 1% globally.",
+		text: "It's a 5 star service. They're extremely detail orientated. Very client focused. There's no ego. As stated previously I signed up initially for 12 weeks. Nearly a year later and I'm still with tehm. That in itself should tell its own story. I couldn't recommend Team Ignite highly enough its been one of the best decisions I've made"
 		// Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
-		img: olan
 	},
 	{
-		username: "MyWallSt - Chief Operating Officer",
-		name: "John Smyth",
-		text: "I've been totally blown away by the work of Voics so far, from the first day when we met Darren I knew we were on the right track. I knew going in that he knew so much about podcasts but what I've loved is his methodical approach to it, and his flexibility and wiliness to share what works with us. One of the best ever agencies I've worked with in my 16/17 years of work.",
-		img: olan
+		name: "Ryan O Riordan",
+		text: "Overall with Olan, I made very good progress in terms of dropping a sincere amount on the scale, aswell as feeling 100% better. Olan has ensured that not only do I look better, but I feel alot better too. Olan was available 24/7 and I was never left waiting for a reply. He was also very patient and attentive, ensuring that I maintained proper form and avoided any injuries. His positive and encouraging attitude made every training session more enjoyable and empowering."
 	},
 	{
-		username: "The LifeTech Show",
-		name: "Evangelina Rajendran",
-		text: "Great content was given alongside feedback that helped me to navigate in the correct direction. Voics has given me a new perspective towards podcasting as a whole and given me great insights on improving the quality of my podcast channel.",
-		img: olan
+		name: "Dovydas",
+		text: "Olan has been a game-changer for me! The way he tailored my workouts to my specific needs and goals has made all the difference. Before I started working with you Olan, I had no structure in my meals whatsoever. I had no knowledge about nutrition and he taught me so much about it. Also when I started I thought I would be left starving but that wasn't the case at all!"
 	}
 ];
 
@@ -102,7 +97,7 @@ const Testimonial = ({ i }: { i: number }) => {
 const Testimonials3 = () => {
 	return (
 		<section id="testimonials">
-			<div className="py-16 px-8 max-w-7xl w-full mx-auto flex flex-col justify-start">
+			<div className="pt-16 px-8 max-w-7xl w-full mx-auto flex flex-col justify-start">
 				<h2 className="font-extrabold text-5xl tracking-tight text-center mb-8">
 					What Our Clients Say
 				</h2>

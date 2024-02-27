@@ -12,7 +12,7 @@ export default function Call() {
 					Book a call
 				</h1>
 				<div className="w-full xl:w-[600px] border-2">
-					<InlineWidget url="https://calendly.com/joegannalliance/consultation-call" />
+					<InlineWidget url="https://calendly.com/olanbroderickcoaching/30min" />
 				</div>
 			</div>
 		</div>

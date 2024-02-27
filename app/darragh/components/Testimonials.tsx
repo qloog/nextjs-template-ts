@@ -102,7 +102,7 @@ const Testimonial = ({ i }: { i: number }) => {
 const Testimonials3 = () => {
 	return (
 		<section id="testimonials">
-			<div className="py-16 px-8 max-w-7xl w-full mx-auto flex flex-col justify-start text-base-content/80">
+			<div className="pt-16 px-8 max-w-7xl w-full mx-auto flex flex-col justify-start text-base-content/80">
 				<h2 className="font-extrabold text-5xl tracking-tight text-center mb-8">
 					What Our Clients Say
 				</h2>
