@@ -58,9 +58,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 					<meta
 						property="og:title"
 						content="Ignite Coaching - Bodybuilding & Lifestyle Coaching"></meta>
-					<meta
-						property="og:image"
-						content="@/app/opengraph-image.png"></meta>
 				</head>
 			)}
 			<body>

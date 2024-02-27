@@ -8,7 +8,7 @@ const config = {
 	appDescription:
 		"Team Ignite are both a coaching service and community with the mission of helping you to realise your true physical and mental potential. Our mission is to bring together as many like minded individuals as possible, with a shared passion for progression - in and outside of the gym.",
 	// REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-	domainName: "ignitecoaching.com",
+	domainName: "ignitecoaching.vercel.app",
 	crisp: {
 		// Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
 		id: "",
