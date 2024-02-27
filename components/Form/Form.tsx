@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import Image from "next/image";
+import emailjs from "@emailjs/browser";
 import coaching3 from "@/public/coaching3.webp";
 import Step1 from "./Step1";
 import Step2 from "./Step2";
@@ -35,9 +36,43 @@ export default function Form() {
 		formState: { errors }
 	} = useForm<Inputs>();
 
-	const onSubmit: SubmitHandler<Inputs> = (data) => (
-		console.log("submitted data: ", data), handleNext()
-	);
+	const onSubmit: SubmitHandler<Inputs> = (data) => {
+		if (step === 4) {
+			const form = {
+				name: data.name,
+				email: data.email,
+				phone: data.phone,
+				coach: data.coach,
+				gender: data.gender,
+				age: data.age,
+				weight: data.weight,
+				height: data.height,
+				goal: data.goal,
+				occupation: data.occupation,
+				activity: data.activity,
+				diet: data.diet,
+				trainAge: data.trainAge,
+				split: data.split,
+				injury: data.injury
+			};
+			emailjs
+				.send(
+					process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+					"template_web8q2u",
+					form,
+					process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+				)
+				.then(
+					(result) => {
+						console.log(result.text);
+					},
+					(error) => {
+						console.log(error.text);
+					}
+				);
+		}
+		handleNext();
+	};
 
 	function handleNext() {
 		if (step === 5) {
@@ -66,7 +101,7 @@ export default function Form() {
 				</div>
 
 				<div className="w-full flex flex-col ml-6 mt-6 md:mt-0">
-					<form onSubmit={handleSubmit(onSubmit)}>
+					<form>
 						{step === 1 ? (
 							<Step1 register={register} errors={errors} />
 						) : step === 2 ? (
@@ -84,6 +119,7 @@ export default function Form() {
 							</>
 						)}
 						<button
+							onClick={handleSubmit(onSubmit)}
 							className={`btn btn-wide mt-6 ${
 								step === 5 && "hidden"
 							}`}>

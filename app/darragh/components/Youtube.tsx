@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from "react";
 export default function Youtube() {
 	const [load, setLoad] = useState(false);
 	const videoRef = useRef(null);
-	const videoId = "qpi4s2_BTJ0";
+	const videoId = "4paSfXGpIBE";
 
 	useEffect(() => {
 		const observer = new IntersectionObserver((entries) => {
@@ -28,9 +28,9 @@ export default function Youtube() {
 		<div
 			ref={videoRef}
 			className="w-full h-fit bg-white text-base-content/80 flex flex-col items-center justify-center px-8 py-16 lg:py-20">
-			<h1 className="font-extrabold text-4xl tracking-tight text-center mb-8">
-				My latest YouTube video
-			</h1>
+			<h2 className="font-extrabold text-5xl tracking-tight text-center mb-8">
+				My latest Youtube video
+			</h2>
 			<div className="w-full h-full flex justify-center max-w-7xl">
 				{load ? (
 					<iframe
@@ -48,3 +48,5 @@ export default function Youtube() {
 		</div>
 	);
 }
+
+// https://www.youtube.com/watch?v=4paSfXGpIBE

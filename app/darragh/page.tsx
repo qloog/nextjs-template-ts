@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Transformations from "./components/Transformations";
 import Testimonials from "./components/Testimonials";
 import Calendly from "./components/Calendly";
+import Youtube from "./components/Youtube";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import dmac from "@/public/dmac.webp";
@@ -68,6 +69,7 @@ export default function Darragh() {
 			<Transformations />
 			<Testimonials />
 			<Calendly />
+			<Youtube />
 			<FAQ />
 			<Footer />
 		</>

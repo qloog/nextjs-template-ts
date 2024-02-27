@@ -354,7 +354,7 @@ const Testimonials11 = () => {
 		<section className="bg-white text-base-content/80" id="testimonials">
 			<div className="py-24 px-8 max-w-7xl mx-auto">
 				<div className="flex flex-col text-center w-full mb-8">
-					<h2 className="sm:text-5xl text-4xl font-extrabold text-base-content">
+					<h2 className="text-5xl font-extrabold text-base-content tracking-tight">
 						100&apos;s of physiques transformed!
 					</h2>
 				</div>
