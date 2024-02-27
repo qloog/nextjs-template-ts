@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import coaching3 from "@/public/coaching3.webp";
-import bg from "@/public/bg.jpeg";
 
 const Hero = () => {
 	return (
@@ -29,15 +28,6 @@ const Hero = () => {
 						width={500}
 						height={500}
 					/>
-				</div>
-				<div className="absolute inset-0 z-[-1]">
-					{/* <Image
-					src={bg}
-					alt="Background Image"
-					className="w-full h-full object-cover brightness-10"
-					layout="fill"
-					priority={true}
-				/> */}
 				</div>
 			</div>
 		</section>
