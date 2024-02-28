@@ -2,7 +2,7 @@ export default function Step1({ register, errors }: any) {
 	return (
 		<>
 			<h2 className="text-3xl font-extrabold text-base-content/80 text-left mb-6">
-				Not ready for a call yet?
+				Let&apos;s get started
 			</h2>
 			<input
 				placeholder="Name"

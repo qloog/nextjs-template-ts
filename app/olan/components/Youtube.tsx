@@ -28,7 +28,7 @@ export default function Youtube() {
 		<div
 			ref={videoRef}
 			className="w-full h-fit bg-white text-base-content/80 flex flex-col items-center justify-center px-8 py-16 lg:py-20">
-			<h1 className="font-extrabold text-4xl tracking-tight text-center mb-8">
+			<h1 className="font-extrabold text-4xl bebas uppercase text-center mb-8">
 				My latest YouTube video
 			</h1>
 			<div className="w-full h-full flex justify-center max-w-7xl">

@@ -11,7 +11,7 @@ export default function Team() {
 				className="bg-white flex flex-col items-center py-16 px-8 "
 				id="team">
 				<div className="w-full max-w-7xl flex flex-col items-center">
-					<h2 className="font-extrabold text-5xl tracking-tight text-center mb-8">
+					<h2 className="font-extrabold text-5xl text-center mb-8 bebas uppercase">
 						Meet the Team
 					</h2>
 

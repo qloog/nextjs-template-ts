@@ -354,8 +354,8 @@ const Testimonials11 = () => {
 		<section className="bg-white text-base-content/80" id="testimonials">
 			<div className="py-24 px-8 max-w-7xl mx-auto">
 				<div className="flex flex-col text-center w-full mb-8">
-					<h2 className="text-5xl font-extrabold text-base-content tracking-tight">
-						100&apos;s of physiques transformed!
+					<h2 className="text-5xl font-extrabold text-base-content/80 bebas uppercase">
+						300+ physiques transformed!
 					</h2>
 				</div>
 
@@ -378,7 +378,7 @@ const Testimonials11 = () => {
 							<li>
 								<figure className="relative h-full p-6 bg-base-200 rounded-lg">
 									<blockquote className="relative p-4">
-										<p className="text-xl font-base text-base-content/80">
+										<p className="text-sm font-base text-base-content/80">
 											{list[list.length - 1].text}
 										</p>
 									</blockquote>

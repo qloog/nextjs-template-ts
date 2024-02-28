@@ -30,7 +30,7 @@ export default function Darragh() {
 							className="w-full lg:w-1/2 h-full rounded-sm object-cover mb-6"
 						/>
 						<div className="lg:ml-6 text-left">
-							<h2 className="font-bold text-2xl tracking-tight mb-4 lg:mb-8">
+							<h2 className="font-bold text-2xl bebas uppercase mb-4 lg:mb-8">
 								Olan Broderick
 							</h2>
 							<p className="">

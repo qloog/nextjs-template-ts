@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/logo.png";
+import logoblack from "@/public/logoblack.png";
 import config from "@/config";
 
 const links: {
@@ -37,7 +37,7 @@ const Header = () => {
 	}, [searchParams]);
 
 	return (
-		<header className="bg-white text-base-content/80">
+		<header className="bg-black text-white">
 			<nav
 				className="container flex items-center justify-between px-8 mx-auto"
 				aria-label="Global">
@@ -48,7 +48,7 @@ const Header = () => {
 						href="/"
 						title={`${config.appName} homepage`}>
 						<Image
-							src={logo}
+							src={logoblack}
 							alt={`${config.appName} logo`}
 							className="object-contain"
 							placeholder="blur"
@@ -62,7 +62,7 @@ const Header = () => {
 				<div className="flex lg:hidden">
 					<button
 						type="button"
-						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
+						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-[#fd5f1e]"
 						onClick={() => setIsOpen(true)}>
 						<span className="sr-only">Open main menu</span>
 						<svg
@@ -71,7 +71,7 @@ const Header = () => {
 							viewBox="0 0 24 24"
 							strokeWidth={1.5}
 							stroke="currentColor"
-							className="w-6 h-6 text-base-content">
+							className="w-6 h-6">
 							<path
 								strokeLinecap="round"
 								strokeLinejoin="round"
@@ -98,7 +98,7 @@ const Header = () => {
 			{/* Mobile menu, show/hide based on menu state. */}
 			<div className={`relative z-50 ${isOpen ? "" : "hidden"}`}>
 				<div
-					className={`fixed inset-y-0 right-0 z-10 w-full px-8 py-2 overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-neutral/10 transform origin-right transition ease-in-out duration-300`}>
+					className={`fixed inset-y-0 right-0 z-10 w-full px-8 py-2 overflow-y-auto bg-black text-white sm:max-w-sm sm:ring-1 sm:ring-neutral/10 transform origin-right transition ease-in-out duration-300`}>
 					{/* Your logo/name on small screens */}
 					<div className="flex items-center justify-between">
 						<Link
@@ -106,7 +106,7 @@ const Header = () => {
 							title={`${config.appName} homepage`}
 							href="/">
 							<Image
-								src={logo}
+								src={logoblack}
 								alt={`${config.appName} logo`}
 								className="object-contain"
 								placeholder="blur"
@@ -117,7 +117,7 @@ const Header = () => {
 						</Link>
 						<button
 							type="button"
-							className="-m-2.5 rounded-md p-2.5"
+							className="-m-2.5 rounded-md p-2.5 text-[#fd5f1e]"
 							onClick={() => setIsOpen(false)}>
 							<span className="sr-only">Close menu</span>
 							<svg
@@ -126,7 +126,7 @@ const Header = () => {
 								viewBox="0 0 24 24"
 								strokeWidth={1.5}
 								stroke="currentColor"
-								className="w-6 h-6">
+								className="w-6 h-6 ">
 								<path
 									strokeLinecap="round"
 									strokeLinejoin="round"

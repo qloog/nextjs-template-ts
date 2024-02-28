@@ -15,8 +15,9 @@ export default function Darragh() {
 	return (
 		<>
 			<Header />
+
 			<section
-				className="bg-white text-base-content/80 flex flex-col items-center lg:py-16 px-8 "
+				className="bg-black text-white flex flex-col items-center lg:py-16 px-8 "
 				id="team">
 				<div className="w-full max-w-7xl flex flex-col items-center">
 					<div className="w-full flex flex-col lg:flex-row items-center">
@@ -30,10 +31,10 @@ export default function Darragh() {
 							className="w-full lg:w-1/2 h-full rounded-sm object-cover mb-6"
 						/>
 						<div className="lg:ml-6 text-left">
-							<h2 className="font-bold text-2xl tracking-tight mb-4 lg:mb-8">
+							<h2 className="font-bold text-2xl bebas uppercase mb-4 lg:mb-8 text-invert">
 								Darragh MacNamara
 							</h2>
-							<p className="">
+							<p className="text-invert">
 								Darragh has over 10 years of experience in
 								physique development and 4 years coaching
 								experience.

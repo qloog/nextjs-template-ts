@@ -127,7 +127,7 @@ const FAQ = () => {
 					<p className="inline-block font-semibold text-[#fd5f1e] mb-4">
 						FAQ
 					</p>
-					<p className="sm:text-4xl text-3xl font-extrabold text-base-content">
+					<p className="sm:text-4xl text-3xl font-extrabold text-base-content/80 bebas uppercase">
 						Frequently Asked Questions
 					</p>
 				</div>

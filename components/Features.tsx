@@ -35,14 +35,17 @@ const features = [
 
 export default function Example() {
 	return (
-		<div className="bg-white text-base-content/80 py-24 sm:py-32">
+		<div className="bg-transparent text-base-content/80 py-24 sm:py-32">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:text-center">
 					<h2 className="text-base font-semibold leading-7 text-[#fd5f1e]">
 						Ignite your potential
 					</h2>
-					<p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-						Transform your physique and mindset.
+					<p className="mt-2 text-3xl font-bold sm:text-4xl bebas uppercase">
+						Transform your{" "}
+						<span className="bg-[#fd5f1e] bg-opacity-75 px-2">
+							physique and mindset.
+						</span>
 					</p>
 					<p className="mt-6 text-lg leading-8 ">
 						Team Ignite are both a coaching service and community
