@@ -106,7 +106,7 @@ const list: {
 	},
 	{
 		name: "Graham",
-		text: "It's a 5 star service. They're extremely detail orientated. Very client focused. There's no ego. As stated previously I signed up initially for 12 weeks. Nearly a year later and I'm still with tehm. That in itself should tell its own story. I couldn't recommend Team Ignite highly enough its been one of the best decisions I've made",
+		text: "It's a 5 star service. They're extremely detail orientated. Very client focused. There's no ego. As stated previously I signed up initially for 12 weeks. Nearly a year later and I'm still with them. That in itself should tell its own story. I couldn't recommend Team Ignite highly enough its been one of the best decisions I've ever made",
 		type: refTypes.other
 	},
 	{
