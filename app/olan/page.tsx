@@ -16,7 +16,7 @@ export default function Darragh() {
 		<>
 			<Header />
 			<section
-				className="bg-white text-base-content/80 flex flex-col items-center lg:py-16 px-8 "
+				className="bg-black text-white flex flex-col items-center lg:py-16 px-8 "
 				id="team">
 				<div className="w-full max-w-7xl flex flex-col items-center">
 					<div className="w-full flex flex-col lg:flex-row items-center">

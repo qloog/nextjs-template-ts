@@ -9,7 +9,7 @@ const imageList = images.keys().map((image) => images(image));
 export default function Transformations() {
 	return (
 		<>
-			<div className="absolute diagonal-bg-small -z-10"></div>
+			<div className="absolute diagonal-bg -z-10"></div>
 			<div
 				id="results"
 				className="w-full flex flex-col items-center bg-transparent text-white px-8 py-16 lg:py-20">

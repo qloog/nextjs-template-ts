@@ -39,11 +39,11 @@ export default function Example() {
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl lg:text-center">
 					<h2 className="text-base font-semibold leading-7 text-[#fd5f1e]">
-						Ignite your potential
+						Ignite your fire within
 					</h2>
 					<p className="mt-2 text-3xl font-bold sm:text-4xl bebas uppercase">
 						Transform your{" "}
-						<span className="bg-[#fd5f1e] bg-opacity-75 px-2">
+						<span className="bg-[#fd5f1e] bg-opacity-80 px-2">
 							physique and mindset.
 						</span>
 					</p>

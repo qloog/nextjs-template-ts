@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import logoblack from "@/public/logoblack.png";
+import logoslogancrop from "@/public/logoslogancrop.png";
 import config from "@/config";
 
 const links: {
@@ -48,13 +48,12 @@ const Header = () => {
 						href="/"
 						title={`${config.appName} homepage`}>
 						<Image
-							src={logoblack}
+							src={logoslogancrop}
 							alt={`${config.appName} logo`}
 							className="object-contain"
-							placeholder="blur"
 							priority={true}
-							width={120}
-							height={120}
+							width={200}
+							height={150}
 						/>
 					</Link>
 				</div>
@@ -98,7 +97,7 @@ const Header = () => {
 			{/* Mobile menu, show/hide based on menu state. */}
 			<div className={`relative z-50 ${isOpen ? "" : "hidden"}`}>
 				<div
-					className={`fixed inset-y-0 right-0 z-10 w-full px-8 py-2 overflow-y-auto bg-black text-white sm:max-w-sm sm:ring-1 sm:ring-neutral/10 transform origin-right transition ease-in-out duration-300`}>
+					className={`fixed inset-y-0 right-0 z-10 w-full px-8 overflow-y-auto bg-black text-white sm:max-w-sm sm:ring-1 sm:ring-neutral/10 transform origin-right transition ease-in-out duration-300`}>
 					{/* Your logo/name on small screens */}
 					<div className="flex items-center justify-between">
 						<Link
@@ -106,13 +105,12 @@ const Header = () => {
 							title={`${config.appName} homepage`}
 							href="/">
 							<Image
-								src={logoblack}
+								src={logoslogancrop}
 								alt={`${config.appName} logo`}
 								className="object-contain"
-								placeholder="blur"
 								priority={true}
-								width={120}
-								height={120}
+								width={200}
+								height={150}
 							/>
 						</Link>
 						<button
