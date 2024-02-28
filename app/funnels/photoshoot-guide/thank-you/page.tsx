@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Header from "@/components/Header";
+import Header from "../../components/Header";
 import Footer from "@/components/Footer";
 
 export default function Page() {
@@ -10,11 +10,11 @@ export default function Page() {
 			<section className="bg-white">
 				<div className="max-w-7xl mx-auto text-base-content/80 flex flex-col lg:flex-row items-center justify-center lg:justify-between px-8 py-8 lg:py-20">
 					<div className="flex flex-col items-center justify-center text-center lg:text-left lg:items-start mb-8">
-						<h1 className="font-extrabold text-6xl tracking-tight mb-6">
+						<h1 className="font-extrabold text-6xl bebas uppercase mb-6">
 							Get Your Photoshoot Guide
 						</h1>
 
-						<p className="text-xl leading-relaxed">
+						<p className="text-lg leading-relaxed">
 							Thank you! Your guide is on the way.
 						</p>
 						<Link

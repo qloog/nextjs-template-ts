@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useRouter } from "next/navigation";
-import Header from "@/components/Header";
+import Header from "../components/Header";
 import Footer from "@/components/Footer";
 import { useForm, SubmitHandler } from "react-hook-form";
 import emailjs from "@emailjs/browser";
@@ -47,10 +47,10 @@ export default function Page() {
 			<section className="bg-white">
 				<div className="max-w-7xl mx-auto text-base-content/80 flex flex-col lg:flex-row items-center justify-center lg:justify-between px-8 py-8 lg:py-20">
 					<div className="flex flex-col items-center justify-center text-center lg:text-left lg:items-start mb-8">
-						<h1 className="font-extrabold text-6xl tracking-tight mb-6">
+						<h1 className="font-extrabold text-6xl bebas uppercase mb-6">
 							Get Your Arm Guide
 						</h1>
-						<p className="text-xl leading-relaxed mb-4">
+						<p className="text-lg leading-relaxed mb-4">
 							Our top 4 tips for growing your arms.
 						</p>
 
