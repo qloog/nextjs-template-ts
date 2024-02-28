@@ -10,7 +10,7 @@ export default function Transformations() {
 	return (
 		<div
 			id="results"
-			className="w-full flex flex-col items-center bg-white text-black px-8 py-16 lg:py-20">
+			className="w-full flex flex-col items-center bg-white text-base-content/80 px-8 py-16 lg:py-20">
 			<div className="w-full max-w-7xl flex flex-col items-center justify-start">
 				<h2 className="font-extrabold text-5xl tracking-tight text-center mb-8">
 					Results

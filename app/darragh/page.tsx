@@ -16,10 +16,10 @@ export default function Darragh() {
 		<>
 			<Header />
 			<section
-				className="bg-white text-base-content/80 flex flex-col items-center py-16 px-8 "
+				className="bg-white text-base-content/80 flex flex-col items-center lg:py-16 px-8 "
 				id="team">
 				<div className="w-full max-w-7xl flex flex-col items-center">
-					<div className="w-full flex items-center">
+					<div className="w-full flex flex-col lg:flex-row items-center">
 						<Image
 							src={dmac}
 							alt="Darragh"
@@ -27,10 +27,10 @@ export default function Darragh() {
 							priority={true}
 							height={600}
 							width={600}
-							className="w-1/2 h-full rounded-sm object-cover mb-4"
+							className="w-full lg:w-1/2 h-full rounded-sm object-cover mb-6"
 						/>
-						<div className="ml-6 text-left">
-							<h2 className="font-bold text-2xl tracking-tight mb-8">
+						<div className="lg:ml-6 text-left">
+							<h2 className="font-bold text-2xl tracking-tight mb-4 lg:mb-8">
 								Darragh MacNamara
 							</h2>
 							<p className="">

@@ -12,25 +12,20 @@ const list: {
 }[] = [
 	{
 		// Optional, use for social media like Twitter. Does not link anywhere but cool to display
-		username: "CamBro Conversations - Top 1% Podcast",
+
 		// REQUIRED
-		name: "Colin Campbell",
+		name: "Darragh O'Donnell",
 		// REQUIRED
-		text: "I have made significant improvements to the aesthetics of the promotional material for my podcast. A good episode only becomes great with supporting thumbnails, artwork, and clips. The work Darren and the team do in this space has helped me level up and continue growing my podcast into the top 1% globally.",
+		text: "Couldn't ask for anything more from Darragh as a coach. From day 1 the level of detail was insane. I always thought of online coaching as just getting a training plan and a meal plan with a few words of motivation here and there but it was way more than that with Darragh. No stone was left unturned."
 		// Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
-		img: dmac
 	},
 	{
-		username: "MyWallSt - Chief Operating Officer",
-		name: "John Smyth",
-		text: "I've been totally blown away by the work of Voics so far, from the first day when we met Darren I knew we were on the right track. I knew going in that he knew so much about podcasts but what I've loved is his methodical approach to it, and his flexibility and wiliness to share what works with us. One of the best ever agencies I've worked with in my 16/17 years of work.",
-		img: dmac
+		name: "Ciara Grogan",
+		text: "I've gained so much knowledge on health, wellbeing, nutrition & training over the last few weeks. Nothing is too much to ask for and every check-in feedback was positive & motivating. I can't thank Darragh enough for helping me get back on track!"
 	},
 	{
-		username: "The LifeTech Show",
-		name: "Evangelina Rajendran",
-		text: "Great content was given alongside feedback that helped me to navigate in the correct direction. Voics has given me a new perspective towards podcasting as a whole and given me great insights on improving the quality of my podcast channel.",
-		img: dmac
+		name: "Mark Kehoe",
+		text: "I'd advise anyone looking to take their training seriously to work with Darragh as he'll provide the guidance and knowledge that you'll need to get that extra level, while making sure you're being consistent and following the plan."
 	}
 ];
 
@@ -44,7 +39,7 @@ const Testimonial = ({ i }: { i: number }) => {
 		<li key={i}>
 			<figure className="relative w-full h-full p-6 md:p-10 bg-gray-100 rounded-lg max-md:text-sm flex flex-col">
 				<blockquote className="relative flex-1">
-					<p className="text-base-content/80 leading-relaxed text-sm">
+					<p className="text-base-content/80 leading-relaxed text-base">
 						{testimonial.text}
 					</p>
 				</blockquote>

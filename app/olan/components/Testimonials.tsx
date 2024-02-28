@@ -20,7 +20,7 @@ const list: {
 		// Optional, a statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
 	},
 	{
-		name: "Ryan O Riordan",
+		name: "Ryan O'Riordan",
 		text: "Overall with Olan, I made very good progress in terms of dropping a sincere amount on the scale, aswell as feeling 100% better. Olan has ensured that not only do I look better, but I feel alot better too. Olan was available 24/7 and I was never left waiting for a reply. He was also very patient and attentive, ensuring that I maintained proper form and avoided any injuries. His positive and encouraging attitude made every training session more enjoyable and empowering."
 	},
 	{

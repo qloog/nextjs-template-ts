@@ -78,22 +78,17 @@ const list: {
 }[] = [
 	{
 		// Show @username for social media like Twitter. Does not link anywhere but cool to display
-		username: "marclou",
-		name: "Marc Lou",
-		text: "Really easy to use. The tutorials are really useful and explains how everything works. Hope to ship my next project really fast!",
+
+		name: "Darragh O'Donnell",
+		text: "Couldn't ask for anything more from a coach. From day 1 the level of detail was insane. I always thought of online coaching as just getting a training plan and a meal plan with a few words of motivation here and there but it was way more than that with Team Ignite. No stone was left unturned.",
 		// use refTypes.other if you don't want to display an icon
-		type: refTypes.twitter,
+		type: refTypes.other
 		// Link to the person's testimonial. It's more trustable
-		link: "https://twitter.com/marc_louvion",
+
 		// A statically imported image (usually from your public folder—recommended) or a link to the person's avatar. Shows a fallback letter if not provided
-		img: "https://pbs.twimg.com/profile_images/1514863683574599681/9k7PqDTA_400x400.jpg"
+
 		// You can display video testimonials to build more trust. Just swap the type above to "video" and add at least the video source below
 		// videoSrc: "/jack.mp4"
-	},
-	{
-		name: "Graham",
-		text: "It's a 5 star service. They're extremely detail orientated. Very client focused. There's no ego. As stated previously I signed up initially for 12 weeks. Nearly a year later and I'm still with tehm. That in itself should tell its own story. I couldn't recommend Team Ignite highly enough its been one of the best decisions I've made",
-		type: refTypes.other
 	},
 	{
 		name: "Conor",
@@ -101,48 +96,56 @@ const list: {
 		type: refTypes.other
 	},
 	{
-		name: "Sean",
-		text: "Just purchased and cloned and *holy shit!* I realllyyy like what I'm seeing here!",
-		type: refTypes.other
-	},
-	{
-		username: "krishna",
-		name: "Krishna Kant",
-		text: "Finally a good boilerplate for Nextjs, now I dont have to cry about it comparing with laravel ecosystem.",
-		type: refTypes.other
-	},
-	{
-		username: "imgyf",
-		name: "Yifan Goh",
-		text: "It's a game changer  🚀 Comes with easy to follow tutorial, and saves you a ton of time. What's not to love?",
-		type: refTypes.other
-	},
-	{
-		name: "Yazdun",
-		text: "Yo Marc, I got the boilerplate, it's fantastic man you just save me 10 hours on each project",
-		type: refTypes.other
-	},
-	{
-		name: "Marc Lou",
-		text: "The tool is exactly what I didn't even know I needed.",
-		videoPoster:
-			"https://d1wkquwg5s1b04.cloudfront.net/demo/marcPoster.jpg",
-		videoSrc: "https://d1wkquwg5s1b04.cloudfront.net/demo/marcVideo.mp4",
-		videoHeight: 250,
-		videoWidth: 500,
+		name: "Niall2",
+		text: "I've made a lot more progress than I thought possible",
+		videoPoster: "https://d2w9s4dnpv2fpb.cloudfront.net/olanvidpic.webp",
+		videoSrc: "https://d2w9s4dnpv2fpb.cloudfront.net/olanvid.webm",
+		videoHeight: 960,
+		videoWidth: 1600,
 		type: refTypes.video
 	},
 	{
-		username: "zawwadx",
-		name: "Zawwad Ul Sami",
-		text: "It's an amazing minimalist, lightweight boilerplate with well-organized code. It has almost all the core features you would want in a SaaS boilerplate. As a new team last year it actually took us months to build a similar set of features at a stable level.",
+		name: "Graham",
+		text: "It's a 5 star service. They're extremely detail orientated. Very client focused. There's no ego. As stated previously I signed up initially for 12 weeks. Nearly a year later and I'm still with tehm. That in itself should tell its own story. I couldn't recommend Team Ignite highly enough its been one of the best decisions I've made",
 		type: refTypes.other
 	},
 	{
-		username: "dan",
-		name: "Dan Mindru",
-		text: "Probably one of the most powerful things you can 'npm install' that I've seen",
+		name: "Sean Reynolds",
+		text: "Joining the gym with Team Ignite has been life changing, in just 7 months, I'm closing in on 20kg weights loss and my body composition has completely changed. Their service is so affordable and worth everything penny spent and I couldn't recommend tehm more!",
 		type: refTypes.other
+	},
+	{
+		name: "Ryan O'Riordan",
+		text: "Overall with Team Ignite, I made very good progress in terms of dropping a sincere amount on the scale, aswell as feeling 100% better. They have ensured that not only do I look better, but I feel alot better too. They was available 24/7 and I was never left waiting for a reply. They are also very patient and attentive, ensuring that I maintained proper form and avoided any injuries. Their positive and encouraging attitude made every training session more enjoyable and empowering.",
+		type: refTypes.other
+	},
+	{
+		name: "Ciara Grogan",
+		text: "I've gained so much knowledge on health, wellbeing, nutrition & training over the last few weeks. Nothing is too much to ask for and every check-in feedback was positive & motivating. I can't thank Darragh enough for helping me get back on track!",
+		type: refTypes.other
+	},
+	{
+		name: "Niall",
+		text: "I've made a lot more progress than I ever thought possible",
+		videoPoster: "https://d2w9s4dnpv2fpb.cloudfront.net/olanvidpic.webp",
+		videoSrc: "https://d2w9s4dnpv2fpb.cloudfront.net/olanvid.webm",
+		videoHeight: 960,
+		videoWidth: 1600,
+		type: refTypes.video
+	},
+	{
+		name: "Mark Kehoe",
+		text: "I'd advise anyone looking to take their training seriously to work with Darragh as he'll provide the guidance and knowledge that you'll need to get that extra level, while making sure you're being consistent and following the plan.",
+		type: refTypes.other
+	},
+	{
+		name: "Niall0",
+		text: "I've made a lot more progress than I ethought possible",
+		videoPoster: "https://d2w9s4dnpv2fpb.cloudfront.net/olanvidpic.webp",
+		videoSrc: "https://d2w9s4dnpv2fpb.cloudfront.net/olanvid.webm",
+		videoHeight: 960,
+		videoWidth: 1600,
+		type: refTypes.video
 	},
 	// The last testimonial is featured on big devices (span 2 columns + big font) 👇
 	{
@@ -375,7 +378,7 @@ const Testimonials11 = () => {
 							<li>
 								<figure className="relative h-full p-6 bg-base-200 rounded-lg">
 									<blockquote className="relative p-4">
-										<p className="text-lg font-base text-base-content">
+										<p className="text-xl font-base text-base-content/80">
 											{list[list.length - 1].text}
 										</p>
 									</blockquote>

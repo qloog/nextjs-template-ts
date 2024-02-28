@@ -11,17 +11,17 @@ export default function TestimonialBig({
 	img: any;
 }) {
 	return (
-		<div className="bg-white text-base-content/80 flex flex-col items-center">
+		<div className="w-full bg-white text-base-content/80 flex flex-col items-center">
 			<div className="pt-8 px-8 max-w-7xl flex flex-col items-center">
-				<div className="bg-base-200 rounded-lg flex flex-col md:flex-row justify-start overflow-hidden h-fit max-w-[400px] md:max-w-full md:h-[400px]">
+				<div className="bg-base-200 rounded-lg flex flex-col lg:flex-row justify-start overflow-hidden">
 					<Image
-						className="object-cover"
+						className="object-cover w-full h-full"
 						src={img}
 						alt={`${name}'s transformation`}
 						width={400}
 						height={400}
 					/>
-					<div className="flex flex-col items-start justify-between p-8 w-full h-full">
+					<div className="flex flex-col items-start justify-between w-full p-8">
 						<p className="text-base-content/80 leading-relaxed text-sm h-full">
 							{text}
 						</p>
